@@ -1,0 +1,22 @@
+.logo{
+    background-color: yellow;
+    border-radius: 0 100px 0 100px;
+    color: maroon;
+    float: right;
+    padding: 5px;
+    border: solid red;
+    width: 175px;
+    height: 160px;
+}
+body{
+    background: linear-gradient(90deg, skyBlue, lightGreen,   violet, pink);
+}
+h1{
+    text-align: center;
+    background-color: burlywood;
+width: 750px;
+}
+hr{
+    background-color: orangered;
+    height: 5px;
+}

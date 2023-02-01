@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>www.mmu.co.ke</title>
+<link rel="stylesheet" href="iniindex.css">
+<script src="uniindex.js"></script>
+</head>
+
+<body>
+  <p id="hour"></p>
+ <script>
+  const hour=new Date().getHours();
+let greeting;
+if (hour<18) {
+    greeting="Good Day";
+} else {
+greeting="Good Evenning";
+}
+document.getElementById('hour').innerHTML=greeting;
+ </script>
+
+ 
+<h2 class="logo">  <a href="C:\Users\hp\Universty\uni.html\image\1647414912962.jpg"><img src="C:\Users\hp\Universty\uni.html\image\1647414912962.jpg" alt="" width="25px" height="25px"></a>Multimedia<br> university<br> of Kenya<br>(mmu) <a href="C:\Users\hp\Universty\uni.html\image\1647414912984.jpg"><img src="C:\Users\hp\Universty\uni.html\image\1647414912984.jpg" alt="" width="25px" height="25px"></a></h2>
+  <h1 style="color: brown;"  style="background-color: aquamarine; margin-inline-end: 0%;"><marquee>Welcome to Multimedia University of Kenya</marquee></h1> 
+  <hr style="color: orange;" height="50px">
+  <marquee><a href="C:\Users\hp\Universty\uni.html\image\1647414912961.jpg"><img src="C:\Users\hp\Universty\uni.html\image\1647414912961.jpg" alt="" height="400px"></a> <a href="C:\Users\hp\Universty\uni.html\image\1647414912981.jpg"><img src="C:\Users\hp\Universty\uni.html\image\1647414912981.jpg" alt="" height="400px"> </a> <a href="C:\Users\hp\Universty\uni.html\image\1647414912982.jpg"><img src="C:\Users\hp\Universty\uni.html\image\1647414912982.jpg" alt="" height="400px"></a> <a href="C:\Users\hp\Universty\uni.html\image\1647414912963 - Copy (2) - Copy.jpg"><img src="C:\Users\hp\Universty\uni.html\image\1647414912963 - Copy (2) - Copy.jpg" alt="" height="400px"></a></marquee>
+ <p style="color: blue;"><strong>Are you a member of Multimedia University of Kenya?</strong></p>
+<p style="color: red;"><a href="unilogin.html">Click here</a> to login into your account.</p>
+
+<h3  style="color: sienna;">Would your like to view our University Well modelled Environment? Worry no more. You are sorted!.<br> It is just by <a href="unipic.html">OneClick </a> only!!</h3>
+
+<p id="view">Did you know that you can actually get the details of the developer of this page?<br> If not interested then visist this button</p>
+<button type="button" onclick="document.getElementById('view').style.display='none'">Click here if you already know all about the author.</button>
+
+<p id="detail" style="display: none;">Email: johanagikonyo552@gmail.com<br>Tel: 7686332<br> Postal Address:969-20300</p>
+<p>Would you like to know the Author Details of This webpage? Well! Click Here:</p>
+<button type="button" onclick="document.getElementById('detail').style.display='block'">It's Me</button>
+
+<h4 id="comf">If you are not comfortable with the informations provided in this webpage about the University, Click the link <a href="uniinfo.html">Here</a><br>to get further details</h4>
+
+
+<h5>If you are Cormfortable, click this button below:</h5>
+<button type="button" onclick="document.getElementById('comf').innerHTML='Thank you!'">Comfortable? Okey</button>
+
+<p>This was read on <button type="button" onclick="document.getElementById('yes').innerHTML=Date()">View date of refernce</button></p>
+<p id="yes"></p>
+ 
+
+</body>
+</html>
