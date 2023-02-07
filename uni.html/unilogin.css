@@ -1,3 +1,9 @@
 body{
-    background-image: url(C:\Users\hp\Universty\uni.html\image\edu.png);
+    background: linear-gradient(90deg, antiquewhite , darksalmon , sandybrown );
+}
+fieldset{
+    display: grid;
+    grid-template-rows: 100px 1fr 2fr;
+    background-color: rgb(219, 173, 161);
+width: 750px;
 }
