@@ -8,15 +8,52 @@
     width: 175px;
     height: 160px;
 }
-body{
-    background: linear-gradient(90deg, skyBlue, lightGreen,   violet, pink);
-}
-h1{
+
+    
+
+.marquee{
     text-align: center;
     background-color: burlywood;
 width: 750px;
 }
-hr{
+.hri{
     background-color: orangered;
     height: 5px;
+}
+.hrr{
+    width: 5px;
+    height: 300px;
+    background-color: orange;
+    float: left;
+    margin: 30px;
+}
+.home{
+    color: white;
+    background-image: url("./image/1647414912980.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+    
+}
+.shandow{
+    background-color: rgb(211, 211, 211);
+    width: 300px;
+    padding: 5px;
+    
+    
+}
+.order{
+    margin: 20px;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    width: 150px;
+}
+body{
+    background-image: url("./image/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marquee{
+   
 }

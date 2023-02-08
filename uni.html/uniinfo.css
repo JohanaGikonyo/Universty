@@ -18,7 +18,11 @@ h4{
     height: 120px;
 }
 body{
-    background-color: cyan;
+    background-image: url(".\image\1647414912986.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
 }
 img{
     float: left;
