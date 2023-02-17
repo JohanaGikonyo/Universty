@@ -3,25 +3,35 @@
 <head>
     <title>www.mmu.co.ke</title>
 <link rel="stylesheet" href="iniindex.css">
+
 <script src="uniindex.js"></script>
 <link rel="icon" href=".\image\1647414912986.jpg">
 </head>
 
 <body>
-  
   <p id="hour"></p>
  <script>
   const hour=new Date().getHours();
 let greeting;
 if (hour<18) {
-    greeting="Good Day";
+    greeting="Good Morning";
 } else {
 greeting="Good Evenning";
 }
 document.getElementById('hour').innerHTML=greeting;
  </script>
-
- 
+<div class="wel">
+Welcome!
+</div>
+ <div class="dropdown">
+<button class="menu">Menu</button>
+<div class="list">
+<a href="#">Applications</a>
+<a href="#">Your Progress</a>
+<a href="#">Results</a>
+<a href="#">About</a>
+</div>
+</div>
 <h2 class="logo">  <a href=".\image\1647414912976.jpg"><img src=".\image\1647414912976.jpg" alt="" width="25px" height="25px"></a>Multimedia<br> university<br> of Kenya<br>(mmu) <a href="./image/1647414912963.jpg"><img src="./image/1647414912963.jpg" alt="" width="25px" height="25px"></a></h2>
   <h1 style="color: brown;"   class="marquee"><marquee>Welcome to Multimedia University of Kenya</marquee></h1> 
   <hr style="color: orange;" height="50px" class="hri">

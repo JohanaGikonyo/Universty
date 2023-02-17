@@ -16,19 +16,83 @@ h4{
     padding: 10px;
     width: 190px; 
     height: 120px;
+    animation-name: log;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+@keyframes log{
+    0%{background-color: yellow; color: rgb(245, 28, 64);}
+    50%{background-color: green; color: red;}
+    75%{background-color: white; color: black;}
+    100%{background-color: yellow; color: rgb(245, 28, 64);}
 }
 body{
-    background-image: url(".\image\1647414912986.jpg");
+    width: 75%;
+    background-image: url('./image/1647414912964.jpg');
     background-repeat: no-repeat;
-    
     background-size: cover;
-    
+    animation-name: bod;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
 }
-img{
+@keyframes bod{
+from{width: 75%; background-image: url('./image/1647414912964.jpg');}
+to{width: 50%; background-color: lightgreen;}
+}
+
+.im{
     float: left;
     border-radius: 0 100px 0 100px;
     border-color: blue;
     height: 100px;2e
     width: 150px;
     border: solid red;
+}
+.anim{
+    width: 10%;
+    padding: 20px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes example{
+    0%{background-color: red; left: opx; top: 0px;}
+    25%{background-color:blue; left: 200px; top: 0px;}
+    50%{background-color:yellow; left: 200px; top: 200px;}
+    75%{background-color: orange; left: opx; top: 200px;}
+    100%{background-color: lightgreen; left: 0px; top: 0px;}
+    
+    }
+    .regard{
+animation-name: regard;
+animation: 10s;
+animation-iteration-count: infinite;
+    }
+@keyframes regard{
+    form{}
+}
+.frame{
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px 0 50px 0;
+    border-style: solid;
+    border-width: 20px;
+    border-image: url('./image/1647414912975.jpg') 27 /20px;
+    animation-name: frames;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.fm{
+    
+    height: 100%;
+    width: 100%;
+}
+@keyframes frames{
+    from{border-image: url('./image/1647414912975.jpg') 27 /20px;}
+    to{border-image: none;}
 }

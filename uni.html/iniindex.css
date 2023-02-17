@@ -49,11 +49,74 @@ background-size: cover;
     width: 150px;
 }
 body{
-    background-image: url("./image/");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 75%;
+    animation-name: body;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
 }
+@keyframes body{
+
+from{width: 75%; background-color: yellowgreen;}
+to{width: 50%; background-color: papayawhip;}
+}
+
+
+
+
+
 .marquee{
    
+}
+body{
+margin: 10%;
+
+
+}
+.menu{
+    background-color: grey;
+    color: white;
+    font-size: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    
+    
+}
+.menu:hover{
+    background-color: yellowgreen;
+}
+.list{
+    background-color: lightblue;
+    display: none;
+    width: 10%;
+}
+.list a{
+    display: block;
+}
+.list a:hover{
+    background-color: white;
+}
+.dropdown:hover .list{
+    display: block;
+}
+
+.wel{
+    background-color: pink;
+    width: 65px;
+    padding: 10px;
+    margin: 5px;
+    animation-name: wel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes wel{
+0%{background-color: sandybrown;}
+25%{background-color: salmon;}
+50%{background-color: green;}
+75%{background-color: blue;}
+100%{background-color: mediumaquamarine;}
+
+
 }
